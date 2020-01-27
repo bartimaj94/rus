@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:600,800");
+
+.signup-form {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: rgb(148, 148, 148);
+  border-radius: 20px;
+  margin: 5% auto;
+}
+.txtb {
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  color: black;
+}
+.signup-btn {
+  margin-top: 60px;
+  background: #297fb8;
+  border-radius: 44px;
+  transition: 0.8s;
+}
+.signup-btn:hover {
+  transform: scale(0.9);
+}
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: "dosis", sans-serif;
+  font-size: 200%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #666;
+}
+.navbar {
+  background-color: #297fb8;
+  border-bottom: 1px solid #5398c6;
+  padding: 1% 0;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #5398c6;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #5398c6;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #5398c6;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #5398c6;
+}
+#home {
+  background-color: #297fb8;
+}
+.caption {
+  margin-top: 55px;
+  padding: 30px;
+  background-color: #297fb8;
+}
+img.banner {
+  width: 100%;
+}
+
+img {
+  margin: 0 auto;
+}
+#icon {
+  max-width: 100px;
+  margin: 15% auto;
+  background-color: #666;
+  padding: 10px;
+  border-radius: 44px;
+}
+.space {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #00e1ff;
+}
+#features {
+  background-color: #297fb8;
+  padding: 70px 0 30px;
+}
+#example {
+  max-width: 150px;
+  margin: 10% auto;
+  padding: 10px;
+}
+#about {
+  background-color: #00e1ff;
+  height: 80vh;
+  overflow: hidden;
+}
+#customers-testimonial {
+  padding: 40px 0;
+}
+.testimonial img {
+  max-width: 159px;
+  margin: 0 auto 0 auto;
+  border: 2px solid white;
+  padding: 5px;
+  margin-bottom: 13px;
+}
+.testimonial blockquote {
+  border: 0;
+  font-size: italic;
+  padding: 5px 150px;
+  position: relative;
+  color: black;
+}
+.testimonial-author p {
+  font-size: 17px;
+  color: black;
+}
+.testimonial-author p strong {
+  display: block;
+  color: black;
+  font-size: 30px;
+}
+.about-us {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+#about-more {
+  color: black;
+}
+#about-more h1 {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: cornflowerblue;
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 24rem;
+  margin: 10% 3%;
+}
+.picture {
+  margin: 15% 3%;
+}
+#pic {
+  max-width: 100px;
+  max-height: 100px;
+}
+#faq {
+  background-color: rgb(91, 164, 173);
+  background-image: url(img/codi.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#faq h1,
+h2 {
+  color: black;
+}
+#footer {
+  background-color: rgba(86, 190, 250, 0.521);
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-button {
+  margin-top: 2%;
+  width: 300px;
+  border-radius: 44px;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#socket {
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#socket p {
+  font-size: 16px;
+  color: black;
+}
+.row {
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    margin: 5%;
+  }
+  .card {
+    margin: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 170%;
+  }
+  .space {
+    font-size: 40px;
+  }
+}
